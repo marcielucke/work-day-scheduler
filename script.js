@@ -47,12 +47,12 @@ $('.description').each(function () {
     
     if (timeBlock < currentHour) {
       $(this).addClass('past');
-    } // if the time Id attribute is equal to the current hour, remove the past and future classes and add the present class
+    } // if the timeBlock attribute is equal to the current hour, remove the past and future classes and add the present class
     else if (timeBlock === currentHour) {
       $(this).removeClass('past');
       $(this).removeClass('future');
       $(this).addClass('present');
-    } // If the time Id attribute is greater than the current time, remove the past and present classes and add the future class
+    } // if timeBlock attribute is greater than the current time, remove the past and present classes and add the future class
     else {
       $(this).removeClass('past');
       $(this).removeClass('present');
@@ -63,7 +63,9 @@ $('.description').each(function () {
 
 };
 
-myInterval = setInterval(checkTime, 5000);
+// create interval to run code every 15 minutes to update current hour
+
+myInterval = setInterval(checkTime, 900000);
 
 
 
