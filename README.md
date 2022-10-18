@@ -2,6 +2,8 @@
 
 Description
 
+URL : https://marcielucke.github.io/work-day-scheduler/
+
 This is a simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
 User Story
@@ -36,4 +38,12 @@ Each time block has an input field and save button where users can store their s
 
 
 Mock Up
+
+[link to mockup](./assets/05-third-party-apis-homework-demo.gif)
+
+URL : https://marcielucke.github.io/work-day-scheduler/
+
+
+
+
 
