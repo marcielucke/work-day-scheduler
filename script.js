@@ -65,7 +65,8 @@ $('.description').each(function () {
 
 // create interval to run code every 15 minutes to update current hour
 
-myInterval = setInterval(checkTime, 900000);
+myInterval = setInterval(checkTime(), 900000);
+
 
 
 
